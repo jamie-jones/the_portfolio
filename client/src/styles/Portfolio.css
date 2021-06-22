@@ -1,0 +1,92 @@
+#portfolio-section{
+    padding: 3% 3% 0;
+}
+
+#portfolio{
+    text-align: center;
+    position: relative;
+    font-family: 'Mate SC', serif;
+    font-size: 3vw;
+}
+
+.portfolio-card-sec{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.cards{
+    background-color: rgb(206, 206, 206);
+    width: 28vw;
+    height: 80vh;
+    border-radius: 2%;
+    margin: 0 1%;
+}
+
+.portfolio-img{
+    width: 28vw;
+    height: 18vw;
+    border-radius: 2% 2% 0 0;
+}
+
+.img-caption, .img-description{
+    text-align: center;
+    font-family: 'Mate SC', serif;
+    padding: 1%;
+}
+
+.img-section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+/* .portfolio-img{
+    height: 300px;
+    width: 600px;
+    border-radius: 8%;
+    padding: 0 3%;
+} */
+
+#portfolio-img{
+    display: block;
+    border-radius: 8%;
+    padding: 0 3%;
+    width: 480px;
+    height: 200px;
+    /* object-fit:contain;
+    opacity: 1;
+    display: block;
+    transition: .5s ease; */
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    /* background-color: darkgreen; */
+    /* background-image: url(../assets/images/mfsquiz.gif) */
+}
+
+#gif{
+    border-radius: 8%;
+    padding: 0 3%;
+    width: 480px;
+    height: 200px;
+    position: absolute;
+    left: 2%;
+}
+
+.img-section:hover .overlay{
+    opacity: 1;
+}
+/* .portfolio-img:hover{
+    opacity: .3;
+    : url("../assets/images/mfsquiz.gif");
+} */
