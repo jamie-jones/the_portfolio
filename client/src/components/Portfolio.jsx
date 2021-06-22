@@ -13,49 +13,49 @@ const Portfolio = () => {
             <h1 id="portfolio">Portfolio</h1>
             <div class="portfolio-card-sec">
             <div class="cards">
-                <a href="http://mfscountdown.com/" target="_blank" rel="noreferrer">
                     <img src={mfsCountdown} alt="MFS Countdown" class="portfolio-img"/>
-                </a>
                 <h4 class="img-caption">Motherland: Fort Salem Countdown</h4>
                 <h5 class="img-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus accusantium, doloremque numquam ipsum aliquid repudiandae facere odit sequi consequuntur neque, ab animi voluptates. Sequi quisquam vero recusandae omnis eveniet blanditiis?</h5>
+                <button><a href="https://github.com/jamie-jones/MFS-s2-countdown" target="_blank" rel="noreferrer"><h5>GitHub Repository</h5></a></button>
+                <button><a href="http://mfscountdown.com/" target="_blank" rel="noreferrer"><h5>Deployed Application</h5></a></button>
             </div>
             <div class="cards">
-            <a href="http://www.mfsquiz.com/" target="_blank" rel="noreferrer">
                     <img src={mfsQuiz} alt="MFS Quiz" class="portfolio-img"/>
-                </a>
                 <h4 class="img-caption">Motherland: Fort Salem Specialization Quiz</h4>
                 <h5 class="img-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus accusantium, doloremque numquam ipsum aliquid repudiandae facere odit sequi consequuntur neque, ab animi voluptates. Sequi quisquam vero recusandae omnis eveniet blanditiis?</h5>
+                <button><a href="https://github.com/jamie-jones/motherland-fs-quiz" target="_blank" rel="noreferrer"><h5>GutHub Repository</h5></a></button>
+                <button><a href="http://www.mfsquiz.com/" target="_blank" rel="noreferrer"><h5>Deployed Application</h5></a></button>
             </div>
             <div class="cards">
-            <a href="http://www.positive-thoughts.org/" target="_blank" rel="noreferrer">
                     <img src={positiveThoughts} alt="Positive Thoughts" class="portfolio-img"/>
-                </a>
                 <h4 class="img-caption">Positive Thoughts</h4>
                 <h5 class="img-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus accusantium, doloremque numquam ipsum aliquid repudiandae facere odit sequi consequuntur neque, ab animi voluptates. Sequi quisquam vero recusandae omnis eveniet blanditiis?</h5>
+                <button><a href="https://github.com/jamie-jones/Positive-Thoughts" target="_blank" rel="noreferrer"><h5>GitHub Repository</h5></a></button>
+                <button><a href="http://www.positive-thoughts.org/" target="_blank" rel="noreferrer"><h5>Deployed Application</h5></a></button>
             </div>
             </div>
             <br/>
             <div class="portfolio-card-sec">
             <div class="cards">
-            <a href="https://jadavianett.github.io/Couchella/" target="_blank" rel="noreferrer">
                     <img src={coachella} alt="Coachella" class="portfolio-img"/>
-                </a>
                 <h4 class="img-caption">Coachella</h4>
                 <h5 class="img-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus accusantium, doloremque numquam ipsum aliquid repudiandae facere odit sequi consequuntur neque, ab animi voluptates. Sequi quisquam vero recusandae omnis eveniet blanditiis?</h5>
+                <button><a href="https://github.com/jamie-jones/Couchella" target="_blank" rel="noreferrer"><h5>GitHub Repository</h5></a></button>
+                <button><a href="https://jadavianett.github.io/Couchella/" target="_blank" rel="noreferrer"><h5>Deplyoed Application</h5></a></button>
             </div>
             <div class="cards">
-            <a href="http://www.just-doc-it.com/" target="_blank" rel="noreferrer">
                     <img src={justDocIt} alt="Just Doc It" class="portfolio-img"/>
-                </a>
                 <h4 class="img-caption">Just Doc It</h4>
                 <h5 class="img-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus accusantium, doloremque numquam ipsum aliquid repudiandae facere odit sequi consequuntur neque, ab animi voluptates. Sequi quisquam vero recusandae omnis eveniet blanditiis?</h5>
+                <button><a href="https://github.com/jamie-jones/Just-Doc-It" target="_blank" rel="noreferrer"><h5>GitHub Repository</h5></a></button>
+                <button><a href="http://www.just-doc-it.com/" target="_blank" rel="noreferrer"><h5>Deployed Application</h5></a></button>
             </div>
             <div class="cards">
-            <a href="https://note-taker-jamie.herokuapp.com/" target="_blank" rel="noreferrer">
                     <img src={noteTaker} alt="Note Taker" class="portfolio-img"/>
-                </a>
                 <h4 class="img-caption">Note Taker</h4>
                 <h5 class="img-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus accusantium, doloremque numquam ipsum aliquid repudiandae facere odit sequi consequuntur neque, ab animi voluptates. Sequi quisquam vero recusandae omnis eveniet blanditiis?</h5>
+                <button><a href="https://github.com/jamie-jones/Note-Taker-App" target="_blank" rel="noreferrer"><h5>GitHub Repository</h5></a></button>
+                <button><a href="https://note-taker-jamie.herokuapp.com/" target="_blank" rel="noreferrer"><h5>Deployed Application</h5></a></button>
             </div>
             </div>
         </section>
