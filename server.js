@@ -14,7 +14,7 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/portfolio", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
-    useFindAndModify: true,
+    useFindAndModify: false,
 });
 
 const connection = mongoose.connection;
@@ -24,7 +24,7 @@ connection.on("connected", () => {
 });
 
 connection.on("error", (err) => {
-    console.log("Mongoose connection error.");
+    console.log("Mongoose connection error.", err);
 });
 
 app.get("/api/config", (req, res) => {
