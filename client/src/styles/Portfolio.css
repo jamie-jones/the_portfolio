@@ -16,11 +16,13 @@
 }
 
 .cards{
-    background-color: rgb(206, 206, 206);
+    background-color: rgb(15, 15, 15, .8);
     width: 28vw;
     height: 80vh;
     border-radius: 2%;
     margin: 0 1%;
+    display: flex;
+    flex-direction: column;
 }
 
 .portfolio-img{
@@ -49,8 +51,38 @@
     font-size: 1.5vw;
 }
 
+.img-description{
+    font-size:inherit;
+}
+
 .img-section{
     position: relative;
     display: flex;
     justify-content: center;
+}
+
+.buttons-section{
+    align-self: center;
+    margin-top:auto;
+    padding-bottom: 2%;
+}
+
+.btns{
+    width: 12vw;
+    height: 5vh;
+    background-color: black;
+    color: white;
+    border-color: white;
+    font-family: 'Mate SC', serif;
+}
+
+.divider{
+    width: 10px;
+    display: inline-block;
+}
+
+h6{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: inherit;
 }
