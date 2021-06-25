@@ -13,7 +13,7 @@ const Portfolio = () => {
 			<h1 id="portfolio">Portfolio</h1>
 			<div class="portfolio-card-sec">
 				<div class="cards">
-					<img src={mfsCountdown} alt="MFS Countdown" class="portfolio-img" />
+					<img src={mfsCountdown} alt="MFS Countdown" class="portfolio-img"/>
 					<h3 class="img-caption">Motherland: Fort Salem Countdown</h3>
 					<h5 class="img-description">
 						Keep track of when your favorite witches of Salem are back on screen
@@ -151,7 +151,7 @@ const Portfolio = () => {
 					<img src={justDocIt} alt="Just Doc It" class="portfolio-img" />
 					<h3 class="img-caption">Just Doc It</h3>
 					<h5 class="img-description">
-						The concept for this project came from project member "Jimmy" and
+						The concept for this project came from project member Jimmy and
 						the inspiration for it was his current work experience as a high
 						school athletic trainer. Jimmy interacts with many athletes across
 						different sports at odd times and in busy settings. He needs a
