@@ -17,3 +17,11 @@
     font-family: 'Mate SC', serif;
     font-size: 3vw;
 }
+
+#about-section h4{
+    padding: 2%;
+    border-radius: 2%;
+    background-color: rgb(15, 15, 15, .7);
+    line-height: 1.5;
+    font-family: 'Mate SC', serif;
+}
