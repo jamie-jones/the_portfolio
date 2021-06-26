@@ -15,7 +15,7 @@ const About = () => {
 				in my sites as well as my artistic eye in layout and visuals for each
 				application I make in order to keep users coming. I hope to learn new
 				programming languages as I continue my career to keep progressing and
-				making better and better apps.
+				making increasingly better apps.
 				<br />
 				<br />I currently live in the greater Savannah area of Georgia with my
 				cat Ellie and my dog Chanel. I speak three languages (English, Spanish,

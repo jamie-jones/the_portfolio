@@ -4,8 +4,8 @@
 
 #profile-pic{
     border-radius: 100%;
-    height: 25vw;
     width: 25vw;
+    height: 25vw;
     object-fit:cover;
     margin: auto;
     display: flex;
@@ -26,4 +26,25 @@
     font-family: 'Mate SC', serif;
     text-align: center;
     font-size: 1.5vw;
+}
+
+@media screen and (max-width: 1024px){
+    #about-section{
+        padding: 2% 2% 0;
+    }
+
+    #profile-pic{
+        height: 50vw;
+        width: 50vw;
+        
+    }
+
+    #about-me{
+        font-size: 8vw;
+    }
+
+    #about-section h4{
+        font-size: 4vw;
+    }
+        
 }

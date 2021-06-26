@@ -6,7 +6,7 @@
     text-align: center;
     position: relative;
     font-family: 'Mate SC', serif;
-    font-size: 3vw;
+    font-size: 4.5vw;
 }
 
 .portfolio-card-sec{
@@ -18,7 +18,7 @@
 .cards{
     background-color: rgb(15, 15, 15, .8);
     width: 28vw;
-    height: 80vh;
+    height: auto;
     border-radius: 2%;
     margin: 0 1%;
     display: flex;
@@ -91,4 +91,61 @@
 
 h5{
     font-size: inherit;
+}
+
+@media screen and (max-width: 1024px){
+
+    #portfolio{
+        font-size: 8vw;
+    }
+    .portfolio-card-sec{
+        display:block;
+    }
+
+    .cards{
+        width: 93vw;
+        height: 85vh;
+        align-content: center;
+        margin-bottom: 10%;
+    }
+
+    .portfolio-img{
+        width: 100%;
+        height: auto;
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
+    }
+
+    .img-caption{
+        font-size: 6vw;
+    }
+
+    .img-description{
+    font-size: 2.8vw;
+    }
+    
+    .btns{
+        width: 35vw;
+        height: 5vh;
+    }
+
+    .btns h6{
+        font-size: 3.2vw;
+    }
+
+    .divider{
+        width: 20px;
+    }
+}
+
+@media screen and (max-width: 415px){
+    
+    .img-description{
+        font-size: 3.5vw;
+        }
+    
+    .btns h6{
+        font-size: 3vw;
+    }
+    
 }
